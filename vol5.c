@@ -30,10 +30,10 @@ int main(void) {
 	} while(svptest_any(svptrue_b16(), pd));
 
 	for (size_t i = 0; i < SAMPLES; i++) {
-        ttl = (ttl + out[i]) % 1000;
-    }
+        	ttl = (ttl + out[i]) % 1000;
+    	}
 
-    printf("Result: %d\n", ttl);  // Check sum to prevent compiler optimizations
+    	printf("Result: %d\n", ttl);  // Check sum to prevent compiler optimizations
 #endif
-    return 0;
+    	return 0;
 }
