@@ -25,7 +25,7 @@ int main() {
 
     int16_t* in  = (int16_t*)calloc(SAMPLES, sizeof(int16_t));
     int16_t* out = (int16_t*)calloc(SAMPLES, sizeof(int16_t));
-	int      ttl = 0;
+    int      ttl = 0;
 
     vol_int  = (int16_t)(VOLUME / 100.0 * 32767.0);
 
