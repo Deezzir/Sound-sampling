@@ -35,6 +35,5 @@ int main(void) {
 
     printf("Result: %d\n", ttl);  // Check sum to prevent compiler optimizations
 #endif
-
-	return 0;
+    return 0;
 }
