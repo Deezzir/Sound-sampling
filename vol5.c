@@ -12,7 +12,7 @@ int main(void) {
 #ifndef __aarch64__
 	printd("Wrong architecture - written for aarch64 only.\n");
 #else
-	int16_t* in	     = (int16_t*) calloc(SAMPLES, sizeof(int16_t));
+	int16_t* in	 = (int16_t*) calloc(SAMPLES, sizeof(int16_t));
 	int16_t* out     = (int16_t*) calloc(SAMPLES, sizeof(int16_t));
 	int16_t  vol_int = (int16_t)  (VOLUME/100.0 * 32767.0);
 	int      ttl     = 0;
