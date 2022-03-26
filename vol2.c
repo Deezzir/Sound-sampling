@@ -26,7 +26,7 @@ int main() {
         return 1;
     }
 
-    for (size_t i = -32768; i <= 32767; i++) {
+    for (int i = -32768; i <= 32767; i++) {
         precalc[(uint16_t)i] = (int16_t)((float)i * VOLUME / 100.0);
     }
 
