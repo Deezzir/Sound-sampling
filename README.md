@@ -1,4 +1,4 @@
-# SPO-sound-sampling
+# Sound-sampling
 
 These are the six programs that are implement different sound volume scaling algorithms:
 1. vol0.c -  is the basic or naive algorithm. This approach multiplies each sound sample by the volume scaling factor, casting from signed 16-bit integer to floating point and back again. Casting between an integer and a floating point can be an expensive operation.
